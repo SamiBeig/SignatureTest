@@ -8,7 +8,9 @@
 
 import UIKit
 import SwiftSignatureView
+import EPSignatureView
 
+/*
 class Canvas: UIView {
     
     override func draw(_ rect: CGRect) {
@@ -51,19 +53,28 @@ class Canvas: UIView {
     }
     
 }
+ 
+*/
 
 class ViewController: UIViewController {
     
   @IBOutlet weak var signatureView: UIView!
   
-  let canvas = Canvas()
+  //let canvas = Canvas()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+      
+      /*
       view.addSubview(canvas)
       canvas.backgroundColor = .white
       canvas.frame = view.frame
+      */
+      let signatureVC = EPSignatureViewController(signatureDelegate: self, showsDate: true, showsSaveSignatureOption: true)
+      signatureVC.subtitleText = "I agree to the terms and conditions"
+      signatureVC.title = "John Doe"
+      let nav = UINavigationController(rootViewController: signatureVC)
+      presentViewController(nav, animated: true, completion: nil)
         
     }
 

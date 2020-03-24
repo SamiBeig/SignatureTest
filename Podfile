@@ -9,4 +9,6 @@ target 'SignatureTest' do
   # Pods for SignatureTest
   pod "SwiftSignatureView"
 
+  pod "EPSignature"
+
 end

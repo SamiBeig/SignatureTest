@@ -1,16 +1,20 @@
 PODS:
+  - EPSignature (1.0.6)
   - SwiftSignatureView (2.2.2)
 
 DEPENDENCIES:
+  - EPSignature
   - SwiftSignatureView
 
 SPEC REPOS:
   trunk:
+    - EPSignature
     - SwiftSignatureView
 
 SPEC CHECKSUMS:
+  EPSignature: 3fa3b520c80717b98019723faa60a41794b03fbc
   SwiftSignatureView: 7c163f7b3d394d5db060a0ae1080ff8bc4c25c4e
 
-PODFILE CHECKSUM: 54e95a45b25d3f67c63e4838cc18e0678d742b9e
+PODFILE CHECKSUM: 1045e2ec36f89f03246e1c8651e60d31707c10e8
 
 COCOAPODS: 1.9.1

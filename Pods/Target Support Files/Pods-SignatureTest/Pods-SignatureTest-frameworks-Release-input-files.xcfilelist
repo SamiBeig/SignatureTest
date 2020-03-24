@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-SignatureTest/Pods-SignatureTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/EPSignature/EPSignature.framework
 ${BUILT_PRODUCTS_DIR}/SwiftSignatureView/SwiftSignatureView.framework
